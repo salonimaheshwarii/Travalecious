@@ -72,7 +72,7 @@ const TopSection = () => {
             <div id="logoDiv">
               <img
                 id="landingPageLogoImg"
-                src="landingImages/swiggyLogo.png"
+                src="MainLogo.png"
                 alt=""
               />
               <div id="landingPageTopButtons">
@@ -104,8 +104,8 @@ const TopSection = () => {
                 <h1 className="movingName"> {names[count]}</h1>
               </div>
               <h1 className="orderFoodFrom">
-                Order food from favourite restaurants near you
-              </h1>
+                Explore Your Dream Destinations With Us
+                </h1>
             </div>
 
             <div id="inputBoxDiv">
@@ -113,7 +113,7 @@ const TopSection = () => {
                 <input
                   id="inputBox"
                   type="text"
-                  placeholder="Enter your dellivery location"
+                  placeholder="Enter your travel destination"
                   style={{
                     backgroundColor: auth
                       ? "rgb(190, 190, 190)"
@@ -131,7 +131,7 @@ const TopSection = () => {
               <Button className="foodButton" onClick={()=>{
                 setAuthOption("signup");
                  toggleAuthDiv();
-              }}>Find food</Button>
+              }}>Find Place</Button>
             </div>
 
             <div id="popularCitiesDiv">
