@@ -27,13 +27,13 @@ export const LocationBased = () => {
     <div className="locationBasedMainDiv">
       <div className="locationBasedMainDiv1">
         <div className="locationBasedMainDiv11">
-          <h1 style={{marginTop:"5vw"}}>Great restaurants in {cityName}, delivering to you</h1>
+          <h1 style={{marginTop:"5vw"}}>Enter your location</h1>
           <div className="locationBasedMainDiv111">
-            Set exact location to find the right restaurants near you.
+            Set exact location to find the right hotels and stays near you.
           </div>
           <div className="locationBasedMainSearchDiv">
             Enter street name, area etc...
-            <div className="locationBasedMainSearchDiv2">Find Food</div>
+            <div className="locationBasedMainSearchDiv2">Find hotels</div>
           </div>
         </div>
       </div>
@@ -47,17 +47,14 @@ export const LocationBased = () => {
       </div> */}
 
       <div className="locationBasedMainAbout">
-        <div className="locationBasedMainAboutHeading" >About the travel culture in {cityName}</div>
+        <div className="locationBasedMainAboutHeading">Welcome!</div>
         <div className="locationBasedMainAboutDesc">
-          Order food & beverages online from restaurants near & around you. We deliver food from
-          your neighborhood local joints, your favorite cafes, luxurious & elite restaurants in your
-          area. Exciting bit? We place no minimum order restrictions! Order in as little (or as
-          much) as you?d like. We?ll Swiggy it to you!
+        to the vibrant world of travel culture! Our website is your gateway to exploring the diverse tapestry of experiences, traditions, and adventures that define travel culture.
         </div>
       </div>
 
       <div className="locationBasedMainPicks" style={{marginTop:"47px"}}>
-        <div className="locationBasedMainPicksHeading">Our picks for you</div>
+        <div className="locationBasedMainPicksHeading">Our Features</div>
         <div className="locationBasedMainPicksCards">
           <div className="locationBasedMainPicksCardRow">
             <Link to="/menu" className="PicksCard">
@@ -66,23 +63,23 @@ export const LocationBased = () => {
                 src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/Offers_yqoiuk"
                 alt="Offers near you"
               />
-              <div className="PicksCardHeading">Offers near you</div>
+              <div className="PicksCardHeading">Hotels and Restaurants for you</div>
             </Link>
             <Link to="/" className="PicksCard">
               <img
                 className="PicksCardImg"
-                src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/TopRated_kyu7dk"
+                src="https://images.pexels.com/photos/4353813/pexels-photo-4353813.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt="top rated"
               />
-              <div className="PicksCardHeading">top rated</div>
+              <div className="PicksCardHeading">Customize your Itinerary</div>
             </Link>
             <Link to="/menu" className="PicksCard">
               <img
                 className="PicksCardImg"
-                src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/SuperFastDelivery_lmh0wh"
+                src="https://images.pexels.com/photos/1280560/pexels-photo-1280560.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt="super fast delivery"
               />
-              <div className="PicksCardHeading">super fast delivery</div>
+              <div className="PicksCardHeading">Rentals</div>
             </Link>
           </div>
         </div>

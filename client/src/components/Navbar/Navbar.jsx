@@ -22,7 +22,9 @@ function Navbar() {
       <header>
         <div className="main-nav">
           <div className="logo">
+            <a href="/location/{cityName}">
             <img src={Logo} alt="" className="logo" />
+            </a>
             {/* <Link to={`/location/${cityName}`}>
             </Link> */}
           </div>
@@ -50,7 +52,7 @@ function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link to="/offers/restaurant">
+                <Link to="/offers/payment">
                   <span>
                     <svg
                       className="_1GTCc"

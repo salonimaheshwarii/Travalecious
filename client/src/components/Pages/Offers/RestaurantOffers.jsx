@@ -19,7 +19,7 @@ function RestaurantOffers() {
        <div className="offer_nav_container">
           <div className="offer_nav_main_container">
               <ul className='nav_links'>
-                  <li><Link to="/offers/restaurant" className='offers_link active'>Restaurant offers</Link></li>
+                  {/* <li><Link to="/offers/restaurant" className='offers_link active'>Restaurant offers</Link></li> */}
                   <li><Link to="/offers/payment" className='offers_link'>Payment offers/Coupons</Link></li>
                   <div className="uderline"></div>
               </ul>
@@ -30,8 +30,8 @@ function RestaurantOffers() {
       <div className="offers_result_section">
           {/* Food ITEMS */}
           <div className="offersHeading">
-            <h1>All offers (769)</h1>
-            <p>All offers and deals, from restaurants near you</p>
+            {/* <h1>All offers (769)</h1>
+            <p>All offers and deals, from restaurants near you</p> */}
           </div>
           <FoodItems />
       </div>

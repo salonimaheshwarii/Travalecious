@@ -19,7 +19,7 @@ export const Help1 = () => {
               sx={{'&:hover': {color: "#f77103"}}}
               
             >
-              <Typography >I want to partner my restaurant with Swiggy</Typography>
+              <Typography >I want to partner my restaurant with Tripify</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography sx={{color:"#f77103", fontSize: "2vh",}}>
@@ -35,7 +35,7 @@ export const Help1 = () => {
               id="panel2a-header"
               sx={{'&:hover': {color: "#f77103"}}}
             >
-              <Typography>What are the mandatory documents needed to list my restaurant on Swiggy?</Typography>
+              <Typography>What are the mandatory documents needed to list my Hotel on Tripify?</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
@@ -55,7 +55,7 @@ export const Help1 = () => {
               id="panel1a-header"
               sx={{'&:hover': {color: "#f77103"}}}
             >
-              <Typography>After I submit all documents, how long will it take for my restaurant to go live on Swiggy?</Typography>
+              <Typography>After I submit all documents, how long will it take for my restaurant to go live on Tripify?</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
@@ -74,7 +74,7 @@ export const Help1 = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-              This is a one-time fee charged towards the system & admin costs incurred during the onboarding process. It is deducted from the weekly payouts after you start receiving orders from Swiggy.
+              This is a one-time fee charged towards the system & admin costs incurred during the onboarding process. It is deducted from the weekly payouts after you start receiving orders from Tripify.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -89,7 +89,7 @@ export const Help1 = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-              You can connect with Partner Support on 080-67466777/68179777 or write to partnersuport@swiggy.in
+              You can connect with Partner Support on 080-67466777/68179777 or write to partnersuport@Tripify.in
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -100,7 +100,7 @@ export const Help1 = () => {
               id="panel1a-header"
               sx={{'&:hover': {color: "#f77103"}}}
             >
-              <Typography>How much commission will I be charged by Swiggy?</Typography>
+              <Typography>How much commission will I be charged by Tripify?</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>

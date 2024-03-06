@@ -17,9 +17,9 @@ function Offers() {
       <div className="offer_nav_container">
           <div className="offer_nav_main_container">
               <ul className='nav_links'>
-                  <li><Link to="/offers/restaurant" className='offers_link'>Restaurant offers</Link></li>
-                  <li><Link to="/offers/payment" className='offers_link active'>Payment offers/Coupons</Link></li>
-                  <div className="new_uderline"></div>
+                  {/* <li><Link to="/offers/restaurant" className='offers_link'>Restaurant offers</Link></li> */}
+                  {/* <li><Link to="/offers/payment" className='offers_link active'>Payment offers/Coupons</Link></li> */}
+                  {/* <div className="new_uderline"></div> */}
               </ul>
           </div>
       </div>

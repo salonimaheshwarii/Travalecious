@@ -19,13 +19,13 @@ export const Help3 = () => {
               sx={{'&:hover': {color: "#f77103"}}}
               
             >
-              <Typography >What is Swiggy Customer Care Number?</Typography>
+              <Typography >What is Tripify Customer Care Number?</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography sx={{color:"#f77103", fontSize: "2vh",}}>
-              We value our customer’s time and hence moved away from a single customer care number to a comprehensive chat-based support system for quick and easy resolution. You no longer have to go through the maze of an IVRS call support. Just search for your issue in the help section on this page and initiate a chat with us. A customer care executive will be assigned to you shortly. You can also email us your issue on support@swiggy.in
+              We value our customer’s time and hence moved away from a single customer care number to a comprehensive chat-based support system for quick and easy resolution. You no longer have to go through the maze of an IVRS call support. Just search for your issue in the help section on this page and initiate a chat with us. A customer care executive will be assigned to you shortly. You can also email us your issue on support@Tripify.in
 
-                Note: We value your privacy and your information is safe with us. Please do not reveal any personal information, bank account number, OTP etc. to another person. A Swiggy representative will never ask you for these details. Please do not reveal these details to fraudsters and imposters claiming to be calling on our behalf. Be vigilant and do not entertain phishing calls or emails.
+                Note: We value your privacy and your information is safe with us. Please do not reveal any personal information, bank account number, OTP etc. to another person. A Tripify representative will never ask you for these details. Please do not reveal these details to fraudsters and imposters claiming to be calling on our behalf. Be vigilant and do not entertain phishing calls or emails.
               </Typography>
               <button className="butcol" >SEND AN EMAIL</button>
             </AccordionDetails>
@@ -37,7 +37,7 @@ export const Help3 = () => {
               id="panel2a-header"
               sx={{'&:hover': {color: "#f77103"}}}
             >
-              <Typography>I want to explore career opportunities with Swiggy</Typography>
+              <Typography>I want to explore career opportunities with Tripify</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
@@ -96,7 +96,7 @@ export const Help3 = () => {
               id="panel1a-header"
               sx={{'&:hover': {color: "#f77103"}}}
             >
-              <Typography>Will Swiggy be accountable for quality/quantity?</Typography>
+              <Typography>Will Tripify be accountable for quality/quantity?</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
