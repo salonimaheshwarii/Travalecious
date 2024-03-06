@@ -24,18 +24,18 @@ const Facility = () => {
            <div id="flexContentDiv">
             <div className="facilityDivItems">
                 <img src="landingImages/noMinOrder.png" alt="" />
-                <p className="facilityTitle">No minimum order</p>
-                <p className="facilityContent">Order in for yourself or for the group, with no restrictions on order value</p>
+                <p className="facilityTitle">Your Customized itinerary</p>
+                <p className="facilityContent">Plan your day with us, and enjoy without any hassle</p>
             </div>
             <div className="facilityDivItems">
-                <img src="landingImages/liveOrder.png" alt="" />
-                <p className="facilityTitle">Live Order Tracking</p>
-                <p className="facilityContent">Know where your order is at all times, from the restaurant to your doorstep</p>
+                <img src="landingImages/bhai.png" alt="" />
+                <p className="facilityTitle">Book your Stay</p>
+                <p className="facilityContent">Get best place to stay, under your  budget!</p>
             </div>
             <div className="facilityDivItems">
-                <img src="landingImages/superFastDelivery.png" alt="" />
-                <p className="facilityTitle">Lightning-Fast Delivery</p>
-                <p className="facilityContent">Experience Swiggy's superfast delivery for food delivered fresh & on time</p>
+                <img src="landingImages/flexContentDiv.png" alt="" />
+                <p className="facilityTitle">Get your vehicle on the go</p>
+                <p className="facilityContent">Experience best inner beauty of the city, and explore at your own</p>
             </div>
             </div>
         </div>

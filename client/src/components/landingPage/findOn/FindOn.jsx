@@ -7,10 +7,10 @@ const FindOn = () => {
             <div id="findOnContainer">
                 <div className="findOnDivItems findOnDivItems1">
                  <h2 className="findOnTitle">
-                 Restaurants in your pocket
+                 Travel in your pocket
                  </h2>  
                  <h3 className="findOnContent">
-                 Order from your favorite restaurants & track on the go, with the all-new Swiggy app.
+                 Visit your favorite places & track on the go, with the all-new Trippyfy  app.
                  </h3>   
 
                  <div id="downloadButtons">
